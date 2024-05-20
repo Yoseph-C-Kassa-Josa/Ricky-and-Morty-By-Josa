@@ -35,9 +35,10 @@
       </div>
     </main>
     <footer class="bg-yellow-300 text-white py-4 text-center">
-      <p>&copy; 2024 Yoseph Chalie Kassa</p>
+     
       <p>Github:https://github.com/Yoseph-C-Kassa-Josa/Ricky-and-Morty-By-Josa</p>
       <p>Figma Design:https://www.figma.com/design/NUsvVKxlUtLLDXOzWKaRio/ricky?node-id=28%3A12&t=4YxizCpwTd3K9tAZ-1</p>
+       <p>&copy; 2024 Yoseph Chalie Kassa</p>
     </footer>
   </div>
 </template>
