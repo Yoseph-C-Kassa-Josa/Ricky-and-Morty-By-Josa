@@ -9,7 +9,7 @@
     </div>
     <div v-else-if="character" class="bg-gray-700 w-full rounded-lg shadow-lg p-8 animate-slide-in">
       <div class="flex flex-col  items-center mb-4 ">
-        <img :src="character.image" :alt="character.name" class="w-32 h-32 rounded-full mr-4" />
+        <img :src="character.image" :alt="character.name" class=" mr-4 animated-image" />
         <div>
           <h2 class="text-2xl font-bold text-yellow-500">{{ character.name }}</h2>
           <div class="flex items-center">
@@ -89,7 +89,19 @@ if (result.value && result.value.charactersByIds) {
 .location-card {
   animation: slide-in 0.5s ease-in-out;
 }
+.animated-image {
+    width: 500px;
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+    border: 4px solid #34dbdb; 
+    border-radius: 10px; 
 
+}
+
+.animated-image:hover {
+    border-color: #e74c3c; 
+    transform: scale(1.1); 
+}
 .episode-card:hover {
   transform: scale(1.05);
 }
